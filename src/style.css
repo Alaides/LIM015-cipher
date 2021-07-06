@@ -1,0 +1,66 @@
+
+@font-face {
+    font-family: "Lobster";
+    src: url("assets/fonts/Lobster-Regular.ttf") format("ttf");
+}
+
+#navbar {
+    background-color: #023047;
+    height: 100px;
+    display: flex;
+    align-items: center;
+}
+
+#navbar #logo {
+    color: whitesmoke;
+    font-family: "Lobster";
+    font-size: 48px;
+}
+
+#navbar .navButton {
+    background-color: #FFB703;
+    color: #023047;
+    font-size: 36px;
+}
+
+#cipher {
+
+}
+
+#cipher .text1 {
+    color: #023047;
+    font-size: 30px;
+    margin-left: 190px;
+}
+
+#cipher #largeInput {
+    background-color: #8ECAE6;
+    width: 950px;
+    height: 350px;
+    stroke: #023047;
+    stroke-width: 5;
+    margin-left: 180px;
+    margin-right: 180px;
+}
+
+#cipher #cipherBottom {
+    margin-top: 30px;
+    align-items: center;
+}
+
+#cipher #cipherBottom #smallInput {
+    background-color: #8ECAE6;
+    height: 30px;
+    stroke: #023047;
+    stroke-width: 2;
+}
+
+#cipher #cipherBottom #cipherButtons {
+    margin-left: 150px;
+}
+
+#cipher #cipherBottom #cipherButtons .actionButton {
+    background-color: #FB8500;
+    color: #fff;
+    font-size: 30px;
+}

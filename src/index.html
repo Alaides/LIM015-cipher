@@ -3,11 +3,29 @@
   <head>
     <meta charset="utf-8">
     <title>Caesar Cipher</title>
-    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="style.css"/>
   </head>
   <body>
-    <div id="root">
-      <h1>Hello world!</h1>
+    <!-- Header -->
+    <div>
+      <nav id="navbar">
+        <span id="logo">Mi diario en línea</span>
+        <button class="navButton">Encriptador</button>
+        <button class="navButton">Entradas</button>
+      </nav>
+    <!-- Hero -->
+      <div id="cipher">
+        <p class="text1">Introduce tu texto</p>
+        <textarea id="largeInput"></textarea>
+        <div id="cipherBottom">
+            <span class="text1">Offset</span>
+            <input type="text" id="smallInput"></input>
+            <span id="cipherButtons">
+              <button class="actionButton">Encriptar</button>
+              <button class="actionButton">Desencriptar</button>
+            </span>
+        </div>
+      </div>
     </div>
     <script src="index.js" type="module"></script>
   </body>
